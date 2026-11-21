@@ -1,0 +1,807 @@
+[
+  {
+    "slug": "combat-sports-equipment",
+    "name": "Combat Sports Equipment",
+    "parent": null
+  },
+  {
+    "slug": "boxing-equipment",
+    "name": "Boxing Equipment",
+    "parent": "combat-sports-equipment"
+  },
+  {
+    "slug": "training-boxing-gloves",
+    "name": "Training Boxing Gloves",
+    "parent": "boxing-equipment"
+  },
+  {
+    "slug": "sparring-boxing-gloves",
+    "name": "Sparring Boxing Gloves",
+    "parent": "boxing-equipment"
+  },
+  {
+    "slug": "professional-boxing-gloves",
+    "name": "Professional Boxing Gloves",
+    "parent": "boxing-equipment"
+  },
+  {
+    "slug": "lace-up-boxing-gloves",
+    "name": "Lace-Up Boxing Gloves",
+    "parent": "boxing-equipment"
+  },
+  {
+    "slug": "hook-and-loop-boxing-gloves",
+    "name": "Hook-and-Loop Boxing Gloves",
+    "parent": "boxing-equipment"
+  },
+  {
+    "slug": "bag-gloves",
+    "name": "Bag Gloves",
+    "parent": "boxing-equipment"
+  },
+  {
+    "slug": "boxing-headguards",
+    "name": "Boxing Headguards",
+    "parent": "boxing-equipment"
+  },
+  {
+    "slug": "boxing-groin-guards",
+    "name": "Boxing Groin Guards",
+    "parent": "boxing-equipment"
+  },
+  {
+    "slug": "boxing-focus-mitts",
+    "name": "Boxing Focus Mitts",
+    "parent": "boxing-equipment"
+  },
+  {
+    "slug": "boxing-thai-pads",
+    "name": "Boxing Thai Pads",
+    "parent": "boxing-equipment"
+  },
+  {
+    "slug": "punching-bags",
+    "name": "Punching Bags",
+    "parent": "boxing-equipment"
+  },
+  {
+    "slug": "boxing-hand-wraps",
+    "name": "Boxing Hand Wraps",
+    "parent": "boxing-equipment"
+  },
+  {
+    "slug": "boxing-protective-equipment",
+    "name": "Boxing Protective Equipment",
+    "parent": "boxing-equipment"
+  },
+  {
+    "slug": "boxing-accessories",
+    "name": "Boxing Accessories",
+    "parent": "boxing-equipment"
+  },
+  {
+    "slug": "mma-equipment",
+    "name": "MMA Equipment",
+    "parent": "combat-sports-equipment"
+  },
+  {
+    "slug": "mma-training-gloves",
+    "name": "MMA Training Gloves",
+    "parent": "mma-equipment"
+  },
+  {
+    "slug": "mma-sparring-gloves",
+    "name": "MMA Sparring Gloves",
+    "parent": "mma-equipment"
+  },
+  {
+    "slug": "mma-competition-gloves",
+    "name": "MMA Competition Gloves",
+    "parent": "mma-equipment"
+  },
+  {
+    "slug": "mma-shin-guards",
+    "name": "MMA Shin Guards",
+    "parent": "mma-equipment"
+  },
+  {
+    "slug": "mma-headguards",
+    "name": "MMA Headguards",
+    "parent": "mma-equipment"
+  },
+  {
+    "slug": "mma-groin-guards",
+    "name": "MMA Groin Guards",
+    "parent": "mma-equipment"
+  },
+  {
+    "slug": "mma-focus-mitts",
+    "name": "MMA Focus Mitts",
+    "parent": "mma-equipment"
+  },
+  {
+    "slug": "mma-training-pads",
+    "name": "MMA Training Pads",
+    "parent": "mma-equipment"
+  },
+  {
+    "slug": "mma-protective-equipment",
+    "name": "MMA Protective Equipment",
+    "parent": "mma-equipment"
+  },
+  {
+    "slug": "mma-accessories",
+    "name": "MMA Accessories",
+    "parent": "mma-equipment"
+  },
+  {
+    "slug": "muay-thai-equipment",
+    "name": "Muay Thai Equipment",
+    "parent": "combat-sports-equipment"
+  },
+  {
+    "slug": "muay-thai-boxing-gloves",
+    "name": "Muay Thai Boxing Gloves",
+    "parent": "muay-thai-equipment"
+  },
+  {
+    "slug": "muay-thai-shin-guards",
+    "name": "Muay Thai Shin Guards",
+    "parent": "muay-thai-equipment"
+  },
+  {
+    "slug": "muay-thai-pads",
+    "name": "Muay Thai Pads",
+    "parent": "muay-thai-equipment"
+  },
+  {
+    "slug": "muay-thai-belly-pads",
+    "name": "Muay Thai Belly Pads",
+    "parent": "muay-thai-equipment"
+  },
+  {
+    "slug": "muay-thai-training-equipment",
+    "name": "Muay Thai Training Equipment",
+    "parent": "muay-thai-equipment"
+  },
+  {
+    "slug": "muay-thai-protective-equipment",
+    "name": "Muay Thai Protective Equipment",
+    "parent": "muay-thai-equipment"
+  },
+  {
+    "slug": "martial-arts-equipment",
+    "name": "Martial Arts Equipment",
+    "parent": "combat-sports-equipment"
+  },
+  {
+    "slug": "bjj-ear-guards",
+    "name": "BJJ Ear Guards",
+    "parent": "martial-arts-equipment"
+  },
+  {
+    "slug": "judo-training-mats",
+    "name": "Judo Training Mats",
+    "parent": "martial-arts-equipment"
+  },
+  {
+    "slug": "karate-sparring-protectors",
+    "name": "Karate Sparring Protectors",
+    "parent": "martial-arts-equipment"
+  },
+  {
+    "slug": "taekwondo-sparring-protectors",
+    "name": "Taekwondo Sparring Protectors",
+    "parent": "martial-arts-equipment"
+  },
+  {
+    "slug": "kickboxing-kick-shields",
+    "name": "Kickboxing Kick Shields",
+    "parent": "martial-arts-equipment"
+  },
+  {
+    "slug": "wrestling-ear-guards",
+    "name": "Wrestling Ear Guards",
+    "parent": "martial-arts-equipment"
+  },
+  {
+    "slug": "kung-fu-training-targets",
+    "name": "Kung Fu Training Targets",
+    "parent": "martial-arts-equipment"
+  },
+  {
+    "slug": "wushu-training-targets",
+    "name": "Wushu Training Targets",
+    "parent": "martial-arts-equipment"
+  },
+  {
+    "slug": "sanda-sparring-protectors",
+    "name": "Sanda Sparring Protectors",
+    "parent": "martial-arts-equipment"
+  },
+  {
+    "slug": "combat-sportswear",
+    "name": "Combat Sportswear",
+    "parent": null
+  },
+  {
+    "slug": "boxing-apparel",
+    "name": "Boxing Apparel",
+    "parent": "combat-sportswear"
+  },
+  {
+    "slug": "boxing-shorts",
+    "name": "Boxing Shorts",
+    "parent": "boxing-apparel"
+  },
+  {
+    "slug": "boxing-trunks",
+    "name": "Boxing Trunks",
+    "parent": "boxing-apparel"
+  },
+  {
+    "slug": "boxing-vests",
+    "name": "Boxing Vests",
+    "parent": "boxing-apparel"
+  },
+  {
+    "slug": "boxing-training-t-shirts",
+    "name": "Boxing Training T-Shirts",
+    "parent": "boxing-apparel"
+  },
+  {
+    "slug": "boxing-tracksuits",
+    "name": "Boxing Tracksuits",
+    "parent": "boxing-apparel"
+  },
+  {
+    "slug": "boxing-training-apparel",
+    "name": "Boxing Training Apparel",
+    "parent": "boxing-apparel"
+  },
+  {
+    "slug": "mma-apparel",
+    "name": "MMA Apparel",
+    "parent": "combat-sportswear"
+  },
+  {
+    "slug": "mma-rash-guards",
+    "name": "MMA Rash Guards",
+    "parent": "mma-apparel"
+  },
+  {
+    "slug": "mma-fight-shorts",
+    "name": "MMA Fight Shorts",
+    "parent": "mma-apparel"
+  },
+  {
+    "slug": "mma-compression-shorts",
+    "name": "MMA Compression Shorts",
+    "parent": "mma-apparel"
+  },
+  {
+    "slug": "mma-compression-leggings",
+    "name": "MMA Compression Leggings",
+    "parent": "mma-apparel"
+  },
+  {
+    "slug": "mma-training-t-shirts",
+    "name": "MMA Training T-Shirts",
+    "parent": "mma-apparel"
+  },
+  {
+    "slug": "mma-training-wear",
+    "name": "MMA Training Wear",
+    "parent": "mma-apparel"
+  },
+  {
+    "slug": "muay-thai-apparel",
+    "name": "Muay Thai Apparel",
+    "parent": "combat-sportswear"
+  },
+  {
+    "slug": "muay-thai-shorts",
+    "name": "Muay Thai Shorts",
+    "parent": "muay-thai-apparel"
+  },
+  {
+    "slug": "muay-thai-training-t-shirts",
+    "name": "Muay Thai Training T-Shirts",
+    "parent": "muay-thai-apparel"
+  },
+  {
+    "slug": "muay-thai-training-apparel",
+    "name": "Muay Thai Training Apparel",
+    "parent": "muay-thai-apparel"
+  },
+  {
+    "slug": "brazilian-jiu-jitsu-apparel",
+    "name": "Brazilian Jiu-Jitsu Apparel",
+    "parent": "combat-sportswear"
+  },
+  {
+    "slug": "bjj-gis",
+    "name": "BJJ Gis",
+    "parent": "brazilian-jiu-jitsu-apparel"
+  },
+  {
+    "slug": "bjj-no-gi-rash-guards",
+    "name": "BJJ No-Gi Rash Guards",
+    "parent": "brazilian-jiu-jitsu-apparel"
+  },
+  {
+    "slug": "bjj-grappling-shorts",
+    "name": "BJJ Grappling Shorts",
+    "parent": "brazilian-jiu-jitsu-apparel"
+  },
+  {
+    "slug": "bjj-spats",
+    "name": "BJJ Spats",
+    "parent": "brazilian-jiu-jitsu-apparel"
+  },
+  {
+    "slug": "bjj-belts",
+    "name": "BJJ Belts",
+    "parent": "brazilian-jiu-jitsu-apparel"
+  },
+  {
+    "slug": "judo-apparel",
+    "name": "Judo Apparel",
+    "parent": "combat-sportswear"
+  },
+  {
+    "slug": "judo-gis",
+    "name": "Judo Gis",
+    "parent": "judo-apparel"
+  },
+  {
+    "slug": "judo-belts",
+    "name": "Judo Belts",
+    "parent": "judo-apparel"
+  },
+  {
+    "slug": "karate-apparel",
+    "name": "Karate Apparel",
+    "parent": "combat-sportswear"
+  },
+  {
+    "slug": "karate-gis",
+    "name": "Karate Gis",
+    "parent": "karate-apparel"
+  },
+  {
+    "slug": "karate-belts",
+    "name": "Karate Belts",
+    "parent": "karate-apparel"
+  },
+  {
+    "slug": "taekwondo-apparel",
+    "name": "Taekwondo Apparel",
+    "parent": "combat-sportswear"
+  },
+  {
+    "slug": "taekwondo-doboks",
+    "name": "Taekwondo Doboks",
+    "parent": "taekwondo-apparel"
+  },
+  {
+    "slug": "taekwondo-belts",
+    "name": "Taekwondo Belts",
+    "parent": "taekwondo-apparel"
+  },
+  {
+    "slug": "wrestling-apparel",
+    "name": "Wrestling Apparel",
+    "parent": "combat-sportswear"
+  },
+  {
+    "slug": "wrestling-singlets",
+    "name": "Wrestling Singlets",
+    "parent": "wrestling-apparel"
+  },
+  {
+    "slug": "wrestling-training-apparel",
+    "name": "Wrestling Training Apparel",
+    "parent": "wrestling-apparel"
+  },
+  {
+    "slug": "kickboxing-apparel",
+    "name": "Kickboxing Apparel",
+    "parent": "combat-sportswear"
+  },
+  {
+    "slug": "kickboxing-shorts",
+    "name": "Kickboxing Shorts",
+    "parent": "kickboxing-apparel"
+  },
+  {
+    "slug": "team-sportswear",
+    "name": "Team Sportswear",
+    "parent": null
+  },
+  {
+    "slug": "football-soccer",
+    "name": "Football & Soccer",
+    "parent": "team-sportswear"
+  },
+  {
+    "slug": "football-jerseys",
+    "name": "Football Jerseys",
+    "parent": "football-soccer"
+  },
+  {
+    "slug": "football-shorts",
+    "name": "Football Shorts",
+    "parent": "football-soccer"
+  },
+  {
+    "slug": "football-kits",
+    "name": "Football Kits",
+    "parent": "football-soccer"
+  },
+  {
+    "slug": "goalkeeper-kits",
+    "name": "Goalkeeper Kits",
+    "parent": "football-soccer"
+  },
+  {
+    "slug": "football-training-wear",
+    "name": "Football Training Wear",
+    "parent": "football-soccer"
+  },
+  {
+    "slug": "football-tracksuits",
+    "name": "Football Tracksuits",
+    "parent": "football-soccer"
+  },
+  {
+    "slug": "american-football",
+    "name": "American Football",
+    "parent": "team-sportswear"
+  },
+  {
+    "slug": "american-football-jerseys",
+    "name": "American Football Jerseys",
+    "parent": "american-football"
+  },
+  {
+    "slug": "american-football-uniforms",
+    "name": "American Football Uniforms",
+    "parent": "american-football"
+  },
+  {
+    "slug": "american-football-training-apparel",
+    "name": "American Football Training Apparel",
+    "parent": "american-football"
+  },
+  {
+    "slug": "australian-rules-football",
+    "name": "Australian Rules Football",
+    "parent": "team-sportswear"
+  },
+  {
+    "slug": "afl-jerseys",
+    "name": "AFL Jerseys",
+    "parent": "australian-rules-football"
+  },
+  {
+    "slug": "afl-shorts",
+    "name": "AFL Shorts",
+    "parent": "australian-rules-football"
+  },
+  {
+    "slug": "afl-team-uniforms",
+    "name": "AFL Team Uniforms",
+    "parent": "australian-rules-football"
+  },
+  {
+    "slug": "rugby",
+    "name": "Rugby",
+    "parent": "team-sportswear"
+  },
+  {
+    "slug": "rugby-jerseys",
+    "name": "Rugby Jerseys",
+    "parent": "rugby"
+  },
+  {
+    "slug": "rugby-shorts",
+    "name": "Rugby Shorts",
+    "parent": "rugby"
+  },
+  {
+    "slug": "rugby-team-kits",
+    "name": "Rugby Team Kits",
+    "parent": "rugby"
+  },
+  {
+    "slug": "rugby-training-wear",
+    "name": "Rugby Training Wear",
+    "parent": "rugby"
+  },
+  {
+    "slug": "cricket",
+    "name": "Cricket",
+    "parent": "team-sportswear"
+  },
+  {
+    "slug": "cricket-jerseys",
+    "name": "Cricket Jerseys",
+    "parent": "cricket"
+  },
+  {
+    "slug": "cricket-trousers",
+    "name": "Cricket Trousers",
+    "parent": "cricket"
+  },
+  {
+    "slug": "cricket-uniforms",
+    "name": "Cricket Uniforms",
+    "parent": "cricket"
+  },
+  {
+    "slug": "cricket-training-wear",
+    "name": "Cricket Training Wear",
+    "parent": "cricket"
+  },
+  {
+    "slug": "basketball",
+    "name": "Basketball",
+    "parent": "team-sportswear"
+  },
+  {
+    "slug": "basketball-jerseys",
+    "name": "Basketball Jerseys",
+    "parent": "basketball"
+  },
+  {
+    "slug": "basketball-shorts",
+    "name": "Basketball Shorts",
+    "parent": "basketball"
+  },
+  {
+    "slug": "basketball-uniform-sets",
+    "name": "Basketball Uniform Sets",
+    "parent": "basketball"
+  },
+  {
+    "slug": "basketball-warm-up-apparel",
+    "name": "Basketball Warm-Up Apparel",
+    "parent": "basketball"
+  },
+  {
+    "slug": "baseball",
+    "name": "Baseball",
+    "parent": "team-sportswear"
+  },
+  {
+    "slug": "baseball-jerseys",
+    "name": "Baseball Jerseys",
+    "parent": "baseball"
+  },
+  {
+    "slug": "baseball-trousers",
+    "name": "Baseball Trousers",
+    "parent": "baseball"
+  },
+  {
+    "slug": "baseball-uniforms",
+    "name": "Baseball Uniforms",
+    "parent": "baseball"
+  },
+  {
+    "slug": "field-hockey",
+    "name": "Field Hockey",
+    "parent": "team-sportswear"
+  },
+  {
+    "slug": "field-hockey-jerseys",
+    "name": "Field Hockey Jerseys",
+    "parent": "field-hockey"
+  },
+  {
+    "slug": "field-hockey-shorts",
+    "name": "Field Hockey Shorts",
+    "parent": "field-hockey"
+  },
+  {
+    "slug": "field-hockey-teamwear",
+    "name": "Field Hockey Teamwear",
+    "parent": "field-hockey"
+  },
+  {
+    "slug": "ice-hockey",
+    "name": "Ice Hockey",
+    "parent": "team-sportswear"
+  },
+  {
+    "slug": "ice-hockey-jerseys",
+    "name": "Ice Hockey Jerseys",
+    "parent": "ice-hockey"
+  },
+  {
+    "slug": "ice-hockey-training-apparel",
+    "name": "Ice Hockey Training Apparel",
+    "parent": "ice-hockey"
+  },
+  {
+    "slug": "handball",
+    "name": "Handball",
+    "parent": "team-sportswear"
+  },
+  {
+    "slug": "handball-jerseys",
+    "name": "Handball Jerseys",
+    "parent": "handball"
+  },
+  {
+    "slug": "handball-shorts",
+    "name": "Handball Shorts",
+    "parent": "handball"
+  },
+  {
+    "slug": "handball-team-kits",
+    "name": "Handball Team Kits",
+    "parent": "handball"
+  },
+  {
+    "slug": "volleyball",
+    "name": "Volleyball",
+    "parent": "team-sportswear"
+  },
+  {
+    "slug": "volleyball-jerseys",
+    "name": "Volleyball Jerseys",
+    "parent": "volleyball"
+  },
+  {
+    "slug": "volleyball-shorts",
+    "name": "Volleyball Shorts",
+    "parent": "volleyball"
+  },
+  {
+    "slug": "volleyball-uniforms",
+    "name": "Volleyball Uniforms",
+    "parent": "volleyball"
+  },
+  {
+    "slug": "netball",
+    "name": "Netball",
+    "parent": "team-sportswear"
+  },
+  {
+    "slug": "netball-dresses",
+    "name": "Netball Dresses",
+    "parent": "netball"
+  },
+  {
+    "slug": "netball-team-kits",
+    "name": "Netball Team Kits",
+    "parent": "netball"
+  },
+  {
+    "slug": "lacrosse",
+    "name": "Lacrosse",
+    "parent": "team-sportswear"
+  },
+  {
+    "slug": "lacrosse-jerseys",
+    "name": "Lacrosse Jerseys",
+    "parent": "lacrosse"
+  },
+  {
+    "slug": "lacrosse-team-kits",
+    "name": "Lacrosse Team Kits",
+    "parent": "lacrosse"
+  },
+  {
+    "slug": "softball",
+    "name": "Softball",
+    "parent": "team-sportswear"
+  },
+  {
+    "slug": "softball-jerseys",
+    "name": "Softball Jerseys",
+    "parent": "softball"
+  },
+  {
+    "slug": "softball-uniforms",
+    "name": "Softball Uniforms",
+    "parent": "softball"
+  },
+  {
+    "slug": "futsal",
+    "name": "Futsal",
+    "parent": "team-sportswear"
+  },
+  {
+    "slug": "futsal-jerseys",
+    "name": "Futsal Jerseys",
+    "parent": "futsal"
+  },
+  {
+    "slug": "futsal-kits",
+    "name": "Futsal Kits",
+    "parent": "futsal"
+  },
+  {
+    "slug": "custom-clothing-activewear",
+    "name": "Custom Clothing & Activewear",
+    "parent": null
+  },
+  {
+    "slug": "custom-t-shirts",
+    "name": "Custom T-Shirts",
+    "parent": "custom-clothing-activewear"
+  },
+  {
+    "slug": "polo-shirts",
+    "name": "Polo Shirts",
+    "parent": "custom-clothing-activewear"
+  },
+  {
+    "slug": "hoodies",
+    "name": "Hoodies",
+    "parent": "custom-clothing-activewear"
+  },
+  {
+    "slug": "sweatshirts",
+    "name": "Sweatshirts",
+    "parent": "custom-clothing-activewear"
+  },
+  {
+    "slug": "tracksuits",
+    "name": "Tracksuits",
+    "parent": "custom-clothing-activewear"
+  },
+  {
+    "slug": "joggers",
+    "name": "Joggers",
+    "parent": "custom-clothing-activewear"
+  },
+  {
+    "slug": "training-shorts",
+    "name": "Training Shorts",
+    "parent": "custom-clothing-activewear"
+  },
+  {
+    "slug": "sports-jackets",
+    "name": "Sports Jackets",
+    "parent": "custom-clothing-activewear"
+  },
+  {
+    "slug": "compression-wear",
+    "name": "Compression Wear",
+    "parent": "custom-clothing-activewear"
+  },
+  {
+    "slug": "gym-wear",
+    "name": "Gym Wear",
+    "parent": "custom-clothing-activewear"
+  },
+  {
+    "slug": "fitness-apparel",
+    "name": "Fitness Apparel",
+    "parent": "custom-clothing-activewear"
+  },
+  {
+    "slug": "running-wear",
+    "name": "Running Wear",
+    "parent": "custom-clothing-activewear"
+  },
+  {
+    "slug": "custom-streetwear",
+    "name": "Custom Streetwear",
+    "parent": "custom-clothing-activewear"
+  },
+  {
+    "slug": "corporate-apparel",
+    "name": "Corporate Apparel",
+    "parent": "custom-clothing-activewear"
+  },
+  {
+    "slug": "private-label-clothing",
+    "name": "Private-Label Clothing",
+    "parent": "custom-clothing-activewear"
+  }
+]

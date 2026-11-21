@@ -1,0 +1,19 @@
+{
+  "purpose": "Synthetic, display-only examples for template review. Do not import into WooCommerce.",
+  "examples": [
+    {
+      "title": "Training boxing glove example",
+      "sku": "EXAMPLE-EQUIPMENT",
+      "specifications": {"Use": "Gym training", "Material": "Discuss cover requirements", "Branding": "Discuss artwork placement"},
+      "sizeGuide": "Glove weight guide slot",
+      "gallery": ["Primary image slot", "Cuff detail slot"]
+    },
+    {
+      "title": "Custom team jersey example",
+      "sku": "EXAMPLE-TEAMWEAR",
+      "specifications": {"Use": "Club kit", "Material": "Discuss fabric requirements", "Branding": "Discuss crest and name placement"},
+      "sizeGuide": "Garment measurements slot",
+      "gallery": ["Front image slot", "Back image slot"]
+    }
+  ]
+}
