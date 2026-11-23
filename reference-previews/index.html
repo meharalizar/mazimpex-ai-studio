@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAZ IMPEX — Homepage Static Theme Review</title>
+<meta name="description" content="Static HTML design review of the redesigned MAZ IMPEX WordPress theme stylesheet and scripts.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link rel="stylesheet" href="/theme-source/style.css">
+<style>
+.maz-preview-switcher {
+	background: #141518;
+	border-top: 1px solid rgba(212, 175, 55, 0.35);
+	color: #d4d6db;
+	font-size: 0.82rem;
+	padding: 0.85rem 0;
+}
+.maz-preview-switcher .wrap {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.75rem 1.25rem;
+}
+.maz-preview-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+.maz-preview-links a {
+	color: #ffffff;
+	border: 1px solid rgba(255, 255, 255, 0.22);
+	border-radius: 4px;
+	padding: 0.32rem 0.7rem;
+	text-decoration: none;
+	font-weight: 600;
+}
+.maz-preview-links a[aria-current="page"] {
+	border-color: #d4af37;
+	background: rgba(212, 175, 55, 0.16);
+	color: #f0d98e;
+}
+.maz-visual-slot {
+	aspect-ratio: 4 / 3;
+	background: linear-gradient(150deg, #efece4 0%, #e4e0d4 100%);
+	border-bottom: 1px solid #e5e2d9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.45rem;
+	color: #5c606b;
+	font-size: 0.82rem;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	padding: 1rem;
+	text-align: center;
+}
+.maz-visual-slot i {
+	font-size: 1.45rem;
+	color: #856318;
+}
+</style>
+</head>
+<body class="home page maz-theme-v3 maz-has-hero">
+<canvas class="maz-particles" aria-hidden="true"></canvas>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" id="site-header">
+<div class="wrap header-inner">
+<a class="wordmark" href="/"><img src="/theme-source/assets/brand/maz-logo-header.webp" width="560" height="100" alt="MAZ IMPEX"></a>
+<button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false">
+<span class="nav-toggle-bars" aria-hidden="true"></span>
+<span>Menu</span>
+</button>
+<nav class="site-nav" id="primary-navigation" aria-label="Primary">
+<div>
+<ul>
+<li class="menu-item-has-children">
+<a href="/category-archive.html">Products</a>
+<ul class="sub-menu">
+<li>
+<a href="/category-archive.html">Combat Sports Equipment</a>
+<ul class="sub-menu">
+<li><a href="/category-archive.html">Training Boxing Gloves</a></li>
+<li><a href="/category-archive.html">Sparring Boxing Gloves</a></li>
+<li><a href="/category-archive.html">MMA Shin Guards</a></li>
+<li><a href="/category-archive.html">Muay Thai Pads</a></li>
+</ul>
+</li>
+<li>
+<a href="/category-archive.html">Combat Sportswear</a>
+<ul class="sub-menu">
+<li><a href="/category-archive.html">BJJ Gis</a></li>
+<li><a href="/category-archive.html">MMA Rash Guards</a></li>
+<li><a href="/category-archive.html">Muay Thai Shorts</a></li>
+<li><a href="/category-archive.html">Boxing Trunks</a></li>
+</ul>
+</li>
+<li>
+<a href="/category-archive.html">Team Sportswear</a>
+<ul class="sub-menu">
+<li><a href="/category-archive.html">Football Kits</a></li>
+<li><a href="/category-archive.html">Rugby Jerseys</a></li>
+<li><a href="/category-archive.html">Cricket Uniforms</a></li>
+<li><a href="/category-archive.html">Basketball Uniform Sets</a></li>
+</ul>
+</li>
+<li>
+<a href="/category-archive.html">Custom Clothing &amp; Activewear</a>
+<ul class="sub-menu">
+<li><a href="/category-archive.html">Hoodies &amp; Sweatshirts</a></li>
+<li><a href="/category-archive.html">Tracksuits</a></li>
+<li><a href="/category-archive.html">Gym &amp; Fitness Apparel</a></li>
+<li><a href="/category-archive.html">Private-Label Clothing</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#manufacturing-divisions">Divisions</a></li>
+<li><a href="#oem-process">OEM / ODM</a></li>
+<li><a href="/single-product.html">Sample Product</a></li>
+<li><a href="#rfq-cta">Contact</a></li>
+</ul>
+</div>
+</nav>
+<form class="search-form" method="get" action="/category-archive.html" role="search">
+<label class="screen-reader-text" for="catalogue-search">Search products</label>
+<input id="catalogue-search" type="search" name="s" placeholder="Search products">
+<input type="hidden" name="post_type" value="product">
+<button class="search-submit" type="submit" aria-label="Search products"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></button>
+</form>
+<a class="button" href="#rfq-cta">Request a quote</a>
+<a class="header-whatsapp" href="#rfq-cta"><i class="maz-icon fa-brands fa-whatsapp" aria-hidden="true"></i><span>WhatsApp</span></a>
+</div>
+</header>
+
+<main id="main" class="homepage">
+<section class="hero maz-hero">
+<div class="wrap maz-hero-inner">
+<p class="eyebrow">OEM / ODM &amp; Private-Label Manufacturing &middot; Sialkot, Pakistan</p>
+<h1>Industrial manufacturing for combat sports, teamwear and custom apparel</h1>
+<p class="lead">Built for international sports brands, wholesale importers, academies and clubs requiring custom specifications, private-label branding and structured sampling.</p>
+<div class="maz-hero-actions">
+<a class="button" href="#rfq-cta">Request a quote</a>
+<a class="button secondary" href="#manufacturing-divisions">Explore divisions</a>
+</div>
+</div>
+</section>
+
+<section class="section dark maz-capability-strip" aria-label="Manufacturing capabilities">
+<div class="wrap">
+<div class="maz-section-head">
+<p class="eyebrow">Manufacturing capability</p>
+<h2>Direct production across equipment and technical apparel</h2>
+</div>
+<div class="maz-capability-grid">
+<article class="maz-info-card">
+<span class="maz-step-num" aria-hidden="true">01</span>
+<h3>OEM &amp; ODM Development</h3>
+<p>Pattern grading, technical specification alignment and custom construction tailored to your brand requirements.</p>
+</article>
+<article class="maz-info-card">
+<span class="maz-step-num" aria-hidden="true">02</span>
+<h3>Private-Label Branding</h3>
+<p>Embroidery, screen printing, sublimation, heat transfer, woven labels and custom retail packaging.</p>
+</article>
+<article class="maz-info-card">
+<span class="maz-step-num" aria-hidden="true">03</span>
+<h3>Structured Sampling</h3>
+<p>Pre-production samples for fit verification, material evaluation and artwork sign-off before bulk runs.</p>
+</article>
+<article class="maz-info-card">
+<span class="maz-step-num" aria-hidden="true">04</span>
+<h3>Export-Ready Fulfilment</h3>
+<p>Direct factory communication from Sialkot for international brands, clubs, distributors and wholesalers.</p>
+</article>
+</div>
+</div>
+</section>
+
+<section class="section" id="manufacturing-divisions">
+<div class="wrap">
+<div class="maz-section-head">
+<p class="eyebrow">Product divisions</p>
+<h2>Four specialist manufacturing divisions</h2>
+<p class="maz-section-intro">Browse our B2B WooCommerce catalogue by manufacturing line to review technical specifications, sizing references and customisation options.</p>
+</div>
+<div class="maz-category-grid maz-divisions-grid">
+<article class="card maz-catalogue-card">
+<div class="maz-visual-slot" aria-hidden="true"><i class="fa-solid fa-hand-fist"></i><span>Division image slot</span></div>
+<div class="maz-card-body">
+<span class="maz-card-index">01</span>
+<h3><a href="/category-archive.html">Combat Sports Equipment</a></h3>
+<p>Boxing gloves, MMA and Muay Thai protective gear, focus mitts, Thai pads and martial arts training equipment.</p>
+<a class="maz-text-link" href="/category-archive.html">View division <span aria-hidden="true">&rarr;</span></a>
+</div>
+</article>
+<article class="card maz-catalogue-card">
+<div class="maz-visual-slot" aria-hidden="true"><i class="fa-solid fa-shirt"></i><span>Division image slot</span></div>
+<div class="maz-card-body">
+<span class="maz-card-index">02</span>
+<h3><a href="/category-archive.html">Combat Sportswear</a></h3>
+<p>BJJ gis, martial arts uniforms, rash guards, fight shorts, grappling spats and boxing apparel.</p>
+<a class="maz-text-link" href="/category-archive.html">View division <span aria-hidden="true">&rarr;</span></a>
+</div>
+</article>
+<article class="card maz-catalogue-card">
+<div class="maz-visual-slot" aria-hidden="true"><i class="fa-solid fa-users"></i><span>Division image slot</span></div>
+<div class="maz-card-body">
+<span class="maz-card-index">03</span>
+<h3><a href="/category-archive.html">Team Sportswear</a></h3>
+<p>Sublimated and cut-and-sew football, rugby, cricket, basketball, hockey and club team uniforms.</p>
+<a class="maz-text-link" href="/category-archive.html">View division <span aria-hidden="true">&rarr;</span></a>
+</div>
+</article>
+<article class="card maz-catalogue-card">
+<div class="maz-visual-slot" aria-hidden="true"><i class="fa-solid fa-layer-group"></i><span>Division image slot</span></div>
+<div class="maz-card-body">
+<span class="maz-card-index">04</span>
+<h3><a href="/category-archive.html">Custom Clothing &amp; Activewear</a></h3>
+<p>Private-label hoodies, tracksuits, gym wear, compression garments, streetwear and corporate apparel.</p>
+<a class="maz-text-link" href="/category-archive.html">View division <span aria-hidden="true">&rarr;</span></a>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<section class="section maz-section-alt" id="oem-process">
+<div class="wrap">
+<div class="maz-section-head">
+<p class="eyebrow">OEM / ODM workflow</p>
+<h2>Structured production from specification to dispatch</h2>
+<p class="maz-section-intro">Every production programme follows a documented technical pathway aligned with commercial B2B buying teams.</p>
+</div>
+<div class="maz-capability-grid">
+<article class="maz-info-card">
+<span class="maz-step-num">01</span>
+<h3>Specification &amp; Brief</h3>
+<p>Review product category, materials, GSM or leather requirements, colourways, sizing and custom branding placement.</p>
+</article>
+<article class="maz-info-card">
+<span class="maz-step-num">02</span>
+<h3>Sample Production</h3>
+<p>Develop pre-production samples with your logos, labels and trim details for physical inspection before bulk sign-off.</p>
+</article>
+<article class="maz-info-card">
+<span class="maz-step-num">03</span>
+<h3>Bulk Manufacturing</h3>
+<p>Consistent cutting, stitching, printing and assembly across agreed size runs with staged quality checks.</p>
+</article>
+<article class="maz-info-card">
+<span class="maz-step-num">04</span>
+<h3>Export Dispatch</h3>
+<p>Custom polybags, woven tags and export carton packing prepared for international air or sea freight.</p>
+</article>
+</div>
+</div>
+</section>
+
+<section class="section maz-conversion" id="rfq-cta">
+<div class="wrap maz-conversion-inner">
+<p class="eyebrow">Commercial enquiries</p>
+<h2>Start a quotation or sample request</h2>
+<p class="lead">Share your product category, quantities, artwork requirements and target delivery schedule with our Sialkot manufacturing team.</p>
+<div class="actions">
+<a class="button" href="/single-product.html">Inspect single product &amp; RFQ actions</a>
+<a class="button secondary" href="/category-archive.html">Browse category archive</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="wrap footer-grid">
+<div class="footer-brand">
+<a class="wordmark" href="/"><img src="/theme-source/assets/brand/maz-logo-header.webp" width="560" height="100" alt="MAZ IMPEX"></a>
+<p class="footer-summary">OEM, ODM and private-label manufacturing enquiries</p>
+<p class="footer-origin">Sialkot, Pakistan</p>
+</div>
+<nav aria-label="Manufacturing divisions">
+<h2>Product divisions</h2>
+<ul>
+<li><a href="/category-archive.html">Combat Sports Equipment</a></li>
+<li><a href="/category-archive.html">Combat Sportswear</a></li>
+<li><a href="/category-archive.html">Team Sportswear</a></li>
+<li><a href="/category-archive.html">Custom Clothing &amp; Activewear</a></li>
+</ul>
+</nav>
+<nav aria-label="Manufacturing programmes">
+<h2>Manufacturing programmes</h2>
+<ul>
+<li><a href="/category-archive.html">Boxing Gloves Manufacturer</a></li>
+<li><a href="/category-archive.html">Custom Teamwear Manufacturer</a></li>
+<li><a href="/category-archive.html">Private-Label Clothing Manufacturer</a></li>
+</ul>
+</nav>
+<div class="footer-enquiries">
+<h2>Enquiries</h2>
+<ul>
+<li><a href="mailto:info@mazimpex.com"><i class="maz-icon fa-solid fa-envelope" aria-hidden="true"></i>info@mazimpex.com</a></li>
+<li><a href="#rfq-cta"><i class="maz-icon fa-brands fa-whatsapp" aria-hidden="true"></i>WhatsApp</a></li>
+<li><a href="#rfq-cta"><i class="maz-icon fa-solid fa-file-signature" aria-hidden="true"></i>Request a quote</a></li>
+</ul>
+</div>
+</div>
+<div class="site-footer-bottom">
+<div class="wrap footer-bottom-inner">
+<p>&copy; 2026 MAZ IMPEX. All rights reserved.</p>
+<p>OEM / ODM &amp; Private-Label Manufacturing &middot; Sialkot, Pakistan</p>
+</div>
+</div>
+</footer>
+
+<aside class="maz-preview-switcher" aria-label="Static theme review switcher">
+<div class="wrap">
+<span><strong>Static WordPress Theme Review</strong> &mdash; Rendering actual <code>theme-source/style.css</code> &amp; vanilla JS (PHP/WooCommerce/Elementor runtime unavailable in AI Studio)</span>
+<nav class="maz-preview-links">
+<a href="/" aria-current="page">Homepage</a>
+<a href="/category-archive.html">Category Archive</a>
+<a href="/single-product.html">Single Product</a>
+<a href="/export">Export ZIP</a>
+</nav>
+</div>
+</aside>
+
+<script src="/theme-source/navigation.js" defer></script>
+<script src="/theme-source/particles.js" defer></script>
+</body>
+</html>

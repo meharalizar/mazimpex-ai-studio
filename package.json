@@ -1,0 +1,12 @@
+{
+  "name": "mazimpex-wordpress-theme-review",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Local AI Studio static review harness for the MAZ IMPEX WordPress theme. Do NOT copy into wp-content/themes/mazimpex/.",
+  "scripts": {
+    "dev": "node reference-previews/preview-server.mjs",
+    "start": "node reference-previews/preview-server.mjs",
+    "build": "node reference-previews/verify-theme.mjs",
+    "lint": "node reference-previews/verify-theme.mjs"
+  }
+}
